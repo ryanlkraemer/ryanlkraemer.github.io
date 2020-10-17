@@ -176,8 +176,8 @@ ul, ol {
   padding: 2.3% 8.5%;
 }
 
-@media (max-width: 900px){
+@media (max-width: 800px){
   .part-programming, .part-eng, .part-home {
-    font-size: 5vh;
+    font-size: 40px;
   }
 }
