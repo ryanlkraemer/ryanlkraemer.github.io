@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  text-size-adjust: 200%;
+  text-size-adjust: 300%;
 }
 
 @font-face {
@@ -175,10 +175,4 @@ nav a:hover, nav a.active {
 
 ul, ol {
   padding: 2.3% 8.5%;
-}
-
-@media (max-width: 800px){
-  .part-programming, .part-eng, .part-home {
-    font-size: 50px;
-  }
 }
