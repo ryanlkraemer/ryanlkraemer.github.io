@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  text-size-adjust: none;
+  text-size-adjust: 200%;
 }
 
 @font-face {
@@ -179,6 +179,6 @@ ul, ol {
 
 @media (max-width: 1000px){
   .part-programming, .part-eng, .part-home {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
