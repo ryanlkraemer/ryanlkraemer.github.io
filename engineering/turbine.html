@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Ryan Kraemer — Portfolio</title>
+  <link href="../style.css" type="text/css" rel="stylesheet">
+  <link rel="icon" type="image/ico" href="../images/kLogo.ico">
+</head>
+<body>
+  <header>
+    <a class="main" href="../index.html">
+      <img id="logo" src="../images/K_Logo.png" type="image/png" alt="Logo"></img>
+      <span class="title">Ryan L. Kraemer</span>
+    </a>
+    <nav>
+      <a class="yellow-border" href="../index.html">About Me</a>
+      <a class="yellow-border active" href="../engineering/index.html">Engineering</a>
+      <a class="yellow-border" href="../programming.html">Programming</a>
+    </nav>
+  </header>
+  <section class="github-link">
+    <a href="#gallery_turbine">
+      <h2>Gallery</h2>
+    </a>
+  </section>
+  <article id="turbine" class="part-eng">
+    <h1>Wind Turbine (In Progress)</h1>
+    <video src="../videos/turbine_inside_demo.mov" type="video/mov" alt="inside
+      test" style="width: 30%; padding: 1% 1.67%; display: in-line; float: right;"
+      controls muted loop autoplay>
+      Video not supported
+    </video>
+    <p>When my school announced the self-driven, hands on RED Capstone class
+      (Reasearch, Entrepeneurship, and Design), I jumped right on the opportunity.
+      This meant I could choose whatever I wanted to innovate, and naturally
+      I chose to engineer something. I focused in on renewable energy for this
+      project and narrowed it down to wind energy, mostly because of the impact
+      it can have on the envrionment, as well as all the fun challenges and
+      room for innovation in wintry and urban areas.</p>
+    <br>
+    <p>On the right you can see my prototype.  This is a drag-based model —
+      less efficient, because if perfectly designed it can only go as fast as
+      the wind, but easier to design.  I plan on transitioning to a lift-based
+      model for my final product, as it has various benefits, one being
+      efficiency.</p>
+    <br>
+    <p>You might notice this is a vertical-axis wind turbine, or a VAWT, instead
+      of the typical horizontal ones you see on commercial wind farms. This
+      style requires a lot less parts because the generator or gear box is
+      in line with the axis of rotation.  At smaller wind levels, too, I expect
+      it to be more efficient.</p>
+    <br>
+    <p>This project has required and will require more planning with others,
+      specifically experts on wind energy and school and city officials. So far,
+      I have consulted with a commercial wind expert, a wind resource analyst,
+      and someone who has installed their own turbine. I am just about to start
+      talking with officials.</p>
+    <br>
+    <h3>Quick Stats</h3>
+    <p>This prototype can currently produce a max of 2.3V in controlled conditions,
+      and 1.1V in ambient, gorund-level air. This is before gearing it up; once
+      I install a gearbox and put it on the roof where the wind is stronger,
+      I expect 12-15V. The holes you see on the MDF plates are how I reduced
+      the weight of the turbine by 35%.</p>
+    <br>
+    <h3>Gallery</h3>
+    <p>Pictures from various stages of development. The first is the original
+      plate with the blade curve, but it broke and I slightly changed it.  It
+      utilizes the Golden Spiral. The second from last is one of those moments
+      where a shoddy decision turned out to have major benefits — I needed a way
+      to couple the shaft to the generator, but I was having a hard time coming up
+      with it. I bolted sheet metal to each part, and it helped because of the increased
+      flexibility of the metal which decreases friction caused by the shaft pushing
+      the red plate towards the wood. The last is independent rotation in low wind.</p>
+  </article>
+  <section id="gallery_turbine">
+    <img class="minor" src="../images/turbine_plate.png" type="image/png"></img>
+    <img class="minor" src="../images/turbine_half.png" type="image/png"></img>
+    <img class="minor" src="../images/turbine_body.png" type="image/png"></img>
+    <img class="minor" src="../images/turbine_full.png" type="image/png"></img>
+    <img class="minor" src="../images/turbine_coupling1.png" type="image/png"></img>
+    <img class="minor" src="../images/turbine_coupling2.png" type="image/png"></img>
+    <video class="minor" src="../videos/turbine_outside_demo.mp4" type="video/mp4"
+      controls muted></video>
+  </section>
+</body>
+</html>

@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto-bold;
+  src: url(./fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: hsl(0, 100%, 100%);
+  font-family: Roboto;
+  /*color: hsl(192, 100%, 98%);*/
+  color: hsl(192, 100%, 2%);
+  height: 85%;
+  width: 100%;
+}
+
+header {
+  background-color: hsl(1, 100%, 20%);
+  background: linear-gradient(180deg, hsl(1, 100%, 20%) 60%, hsla(0, 100%, 100%, 0) 100%);
+  font-family: Roboto-bold;
+  height: 15%;
+}
+
+.main {
+  color: hsl(45, 97%, 75%);
+  float: left;
+  padding: 0.67% 1%;
+  display: inline-block;
+  height: 100%;
+  width: 40%
+}
+
+.main:hover {
+  opacity: 0.65;
+}
+
+nav {
+  height: 100%;
+  float: right;
+  padding: 0.67% 1%;
+  width: 35%;
+}
+
+nav a {
+  float: left;
+  text-align: center;
+  font-size: 1.8vw;
+  color: hsl(45, 97%, 75%);
+  /*width: 12%;*/
+  padding: 0.65% 1.5%;
+  margin: 0 2.2%;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-bottom: solid hsla(45, 97%, 75%, 0) 2px;
+}
+
+.title {
+  font-size: 3.5vw;
+  position: relative;
+  bottom: 25%;
+  padding-left: 10px;
+}
+
+#logo {
+  padding: 1%;
+  height: 98.67%;
+  border-radius: 7px;
+  background-color: hsla(0, 0%, 94%, 0.55);
+}
+
+/*.yellow-border {
+  border-bottom: solid hsl(45, 97%, 75%) 2px;
+  border-radius: 7px;
+} */
+
+nav a:hover {
+  /*background-color: hsl(1, 100%, 20%);*/
+  border-bottom: solid hsl(45, 97%, 75%) 2px;
+}
+
+nav a.active {
+  border-bottom: solid hsl(45, 97%, 75%) 2px;
+}
+
+h1 {
+  font-family: Roboto-bold;
+  font-size: 45px;
+}
+
+.part {
+  padding: 1% 1.67%;
+  font-size: 19px;
+  width: 50%;
+  float: left;
+  min-width: 350px;
+}
+
+.part-eng {
+  padding: 1% 1.67%;
+  font-size: 18px;
+}
+
+.part-home {
+  padding: 1% 1.67%;
+  font-size: 18px;
+  width: 33.33%;
+  display: inline-block;
+  float: left;
+  min-width: 300px;
+}
+
+.github-link {
+  margin-top: 10px;
+  margin: auto;
+  width: 20%;
+  background-color: hsl(1, 100%, 20%);
+  border: solid hsl(45, 97%, 75%) 2px;
+  border-radius: 7px;
+  padding: 3px;
+  text-align: center;
+  font-family: Roboto-bold;
+  font-size: 3vh;
+}
+
+.github-link:hover {
+  background-color: hsla(1, 100%, 20%, 0.8);
+}
+
+img.eng {
+  display: inline-block;
+  float: right;
+  padding: 0 1.67%;
+  width: 30%;
+}
+
+.selector {
+  margin: auto;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.major {
+  width: 35%;
+  padding: 1% 5%;
+  display: inline-block;
+  min-width: 245px;
+}
+
+.minor {
+  width: 24.75%;
+  padding: 1% 2.5%;
+  display: inline-block;
+  min-width: 225px;
+}
+
+.selector img:hover {
+  border: solid hsl(1, 100%, 20%) 2px;
+  border-radius: 7px;
+}
+
+h2 {
+  color: hsl(45, 97%, 75%);
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+ul, ol {
+  padding: 2.3% 8.5%;
+}
