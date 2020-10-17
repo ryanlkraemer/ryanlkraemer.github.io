@@ -140,6 +140,8 @@ nav a:hover, nav a.active {
   padding: 1% 1.67%;
   font-size: 18px;
   width: 33.33%;
+  display: inline-block;
+  float: left;
   min-width: 450px;
 }
 
@@ -147,6 +149,7 @@ nav a:hover, nav a.active {
   padding: 1% 1.67%;
   font-size: 19px;
   width: 50%;
+  float: left;
   min-width: 350px;
 }
 
