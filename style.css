@@ -96,14 +96,14 @@ img.eng {
   width: 40%;
   padding: 1% 5%;
   display: inline-block;
-  min-width: 245px;
+  min-width: 240px;
 }
 
 .minor {
   width: 33%;
   padding: 1% 2.5%;
   display: inline-block;
-  min-width: 225px;
+  min-width: 220px;
 }
 
 nav {
@@ -143,7 +143,7 @@ nav a:hover, nav a.active {
   width: 33.33%;
   display: inline-block;
   float: left;
-  min-width: 425px;
+  min-width: 420px;
 }
 
 .part-programming {
@@ -151,7 +151,7 @@ nav a:hover, nav a.active {
   font-size: 19px;
   width: 50%;
   float: left;
-  min-width: 625px;
+  min-width: 600px;
 }
 
 .selector {
