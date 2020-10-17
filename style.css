@@ -175,3 +175,9 @@ nav a:hover, nav a.active {
 ul, ol {
   padding: 2.3% 8.5%;
 }
+
+@media (max-width: 700px){
+  .part-programming, .part-eng, .part-home {
+    font-size: 30px;
+  }
+}
