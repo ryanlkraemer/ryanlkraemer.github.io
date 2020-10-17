@@ -144,7 +144,6 @@ nav a:hover, nav a.active {
   display: inline-block;
   float: left;
   min-width: 420px;
-  height: 100%;
 }
 
 .part-programming {
@@ -153,7 +152,6 @@ nav a:hover, nav a.active {
   width: 50%;
   float: left;
   min-width: 600px;
-  height: 100%;
 }
 
 .selector {
