@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  text-size-adjust: auto;
+  text-size-adjust: none;
 }
 
 @font-face {
