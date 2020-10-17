@@ -178,6 +178,6 @@ ul, ol {
 
 @media (max-width: 900px){
   .part-programming, .part-eng, .part-home {
-    font-size: 30px;
+    font-size: 4vh;
   }
 }
