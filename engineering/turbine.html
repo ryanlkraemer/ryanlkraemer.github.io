@@ -5,7 +5,7 @@
   <link href="../style.css" type="text/css" rel="stylesheet">
   <link rel="icon" type="image/ico" href="../images/kLogo.ico">
 </head>
-<body>
+<body id="turbine">
   <header>
     <a class="main" href="../index.html">
       <img id="logo" src="../images/K_Logo.png" type="image/png" alt="Logo"></img>
@@ -23,53 +23,10 @@
     </a>
   </section>
   <h1 style="padding: 0 1.67%;">Wind Turbine (In Progress)</h1>
-  <article class="part-eng">
-    <h4>November 17, 2020 (LATEST)</h4>
-    <video class="eng" src="../videos/turbine_geared_demo.MOV" type="video/mov" alt="gear
-      test" style="width:14%;" controls muted loop>Video not supported</video>
-    <p>This quarter, I have half as much time as last in the engineering shop and I
-      don't have RED class again until next quarter, but I've been using my free period
-      to work on the turbine.  Before I go any further, I just want to note my thanks
-      for my teacher and everyone who has supported my project; this has been one of
-      the best experiences of my life.</p>
-    <br>
-    <p>With my now more limited time, I've been working on the gearing so that my
-      turbine can go from reading a small 1V to much higher limits. I finally got it
-      to work today, after many attempts that were simply too complicated for the MDF
-      plate I'm working with. I had a lot of problems with resistance and meshing
-      before I made the simple solution pictured last in the gallery. I spent a lot of time at first
-      working on my preferred gear ratio, ~20:1, with a gear train, but realized I had jumped the gun
-      and that I should just make sure I can get something that works.  I now have an
-      11.11:1 ratio, and it actually might work for the final product! A lesson learned:
-      don't get ahead of myself.</p>
-    <br>
-    <p>The video at right is of my turbine with the gearing, and
-      at its maximum it read over 20V. Feel free to put it in full screen for better
-      detail.</p>
-  </article>
-  <article class="part-eng">
-    <h4>October 24, 2020</h4>
-    <img class="eng" src="../images/turbine_concept_model.png" type="image/png" alt="3D model
-      of turbine concept" style="width: 15%;"></img>
-    <p>I gave the pitch to my school administration and it was a success. It seems
-      that the project can go forward. There are a few more hoops to jump through
-      than I anticipated, namely the neighborhood committee that the school is in
-      and insurance, but I already heard back that insurance will not be an issue.
-      However, I do still plan on adhering to safety standards, of course.</p>
-    <br>
-    <p>I designed the model pictured to the right of a concept for a lift-based VAWT
-      using Solidworks CAD software.
-      I read some research and found that the specific blade I used for these, NACA 0015, is the
-      best for small lift-based turbines. However, my research also seemed to conclude
-      that Savonius (drag-based) designs are overall best for low winds.  This is
-      something I would like to research on my own, but it is a bit of a relief because
-      Savonius models are easier to manufacture with the resources I have.  I have some
-      ideas for innovation of those models as well.</p>
-  </article>
-  <article class="part-eng">
+  <article class="part-eng" style="border-top: none;">
     <h4>October 19, 2020 and Before</h4>
     <video class="eng" src="../videos/turbine_inside_demo.mov" type="video/mov" alt="inside
-      test" style="width:29%;" controls muted loop>Video not supported</video>
+      test" controls muted loop>Video not supported</video>
     <p>When my school announced the self-driven, hands on RED Capstone class
       (Reasearch, Entrepeneurship, and Design), I jumped right on the opportunity.
       This meant I could choose whatever I wanted to innovate, and naturally
@@ -102,20 +59,62 @@
       I install a gearbox and put it on the roof where the wind is stronger,
       I expect 12-15V. The holes you see on the MDF plates are how I reduced
       the weight of the turbine by 35%.</p>
-    <br>
-    <h3>Gallery</h3>
-    <p>Pictures from various stages of development. The first is the original
-      plate with the blade curve, but it broke and I slightly changed it.  It
-      utilizes the Golden Spiral. The third from last is one of those moments
-      where a shoddy decision turned out to have major benefits — I needed a way
-      to couple the shaft to the generator, but I was having a hard time coming up
-      with it. I bolted sheet metal to each part, and it helped because of the increased
-      flexibility of the metal which decreases friction caused by the shaft pushing
-      the red plate towards the wood. The second from last is independent rotation
-      in low wind.  The last is the top-view of the 3D model I made for a lift-based
-      design.</p>
   </article>
-  <section id="gallery_turbine">
+  <article class="part-eng">
+    <h4>October 24, 2020</h4>
+    <img class="eng" src="../images/turbine_concept_model.png" type="image/png" alt="3D model
+      of turbine concept"></img>
+    <p>I gave the pitch to my school administration and it was a success. It seems
+      that the project can go forward. There are a few more hoops to jump through
+      than I anticipated, namely the neighborhood committee that the school is in
+      and insurance, but I already heard back that insurance will not be an issue.
+      However, I do still plan on adhering to safety standards, of course.</p>
+    <br>
+    <p>I designed the model pictured to the right of a concept for a lift-based VAWT
+      using Solidworks CAD software.
+      I read some research and found that the specific blade I used for these, NACA 0015, is the
+      best for small lift-based turbines. However, my research also seemed to conclude
+      that Savonius (drag-based) designs are overall best for low winds.  This is
+      something I would like to research on my own, but it is a bit of a relief because
+      Savonius models are easier to manufacture with the resources I have.  I have some
+      ideas for innovation of those models as well.</p>
+  </article>
+  <article class="part-eng">
+    <h4>November 17, 2020 (LATEST)</h4>
+    <video class="eng" src="../videos/turbine_geared_demo.MOV" type="video/mov" alt="gear
+      test" controls muted loop>Video not supported</video>
+    <p>This quarter, I have half as much time as last in the engineering shop and I
+      don't have RED class again until next quarter, but I've been using my free period
+      to work on the turbine.  Before I go any further, I just want to note my thanks
+      for my teacher and everyone who has supported my project; this has been one of
+      the best experiences of my life.</p>
+    <br>
+    <p>With my now more limited time, I've been working on the gearing so that my
+      turbine can go from reading a small 1V to much higher limits. I finally got it
+      to work today, after many attempts that were simply too complicated for the MDF
+      plate I'm working with. I had a lot of problems with resistance and meshing
+      before I made the simple solution pictured last in the gallery. I spent a lot of time at first
+      working on my preferred gear ratio, ~20:1, with a gear train, but realized I had jumped the gun
+      and that I should just make sure I can get something that works.  I now have an
+      11.11:1 ratio, and it actually might work for the final product! A lesson learned:
+      don't get ahead of myself.</p>
+    <br>
+    <p>The video at right is of my turbine with the gearing, and
+      at its maximum it read over 20V. Feel free to put it in full screen for better
+      detail.</p>
+  </article>
+  <section id="gallery_turbine" class="part-eng" style="padding: 0 0;">
+    <h3 style="padding: 0 1.67%; padding-top: 1%">Gallery</h3>
+    <p style="padding: 0 1.67%;">Pictures from various stages of development. The first is the original
+        plate with the blade curve, but it broke and I slightly changed it.  It
+        utilizes the Golden Spiral. The third from last is one of those moments
+        where a shoddy decision turned out to have major benefits — I needed a way
+        to couple the shaft to the generator, but I was having a hard time coming up
+        with it. I bolted sheet metal to each part, and it helped because of the increased
+        flexibility of the metal which decreases friction caused by the shaft pushing
+        the red plate towards the wood. The second from last is independent rotation
+        in low wind.  The last is the top-view of the 3D model I made for a lift-based
+        design.</p>
     <img class="minor" src="../images/turbine_plate.png" type="image/png"></img>
     <img class="minor" src="../images/turbine_half.png" type="image/png"></img>
     <img class="minor" src="../images/turbine_body.png" type="image/png"></img>

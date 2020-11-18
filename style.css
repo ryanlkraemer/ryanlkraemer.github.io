@@ -32,7 +32,7 @@ body {
   display: inline-block;
   float: right;
   padding: 1% 1.67%;
-  width: 30%;
+  height: 50vh;
 }
 
 .github-link {
@@ -105,7 +105,7 @@ header {
 }
 
 .minor {
-  width: 33%;
+  width: 32.5%;
   padding: 1% 2.5%;
   display: inline-block;
   min-width: 220px;
@@ -138,9 +138,15 @@ nav a:hover, nav a.active {
 }
 
 .part-eng {
-  padding: 1% 1.67%;
+  padding: 1.67% 1.67%;
   font-size: 18px;
-  display:block;
+  display: block;
+  /*height: 65%;*/
+  clear: both;
+}
+
+#turbine .part-eng {
+  border-top: solid 2px hsl(1, 100%, 20%);
 }
 
 .part-home {
