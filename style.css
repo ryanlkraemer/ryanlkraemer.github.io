@@ -145,7 +145,7 @@ nav a:hover, nav a.active {
   clear: both;
 }
 
-#turbine .part-eng {
+#turbine .part-eng, #gallery .part-eng {
   border-top: solid 2px hsl(1, 100%, 20%);
 }
 
